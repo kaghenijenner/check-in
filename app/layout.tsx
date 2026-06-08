@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Check-In",
+  title: "Check-In | Daily Goals & Accountability",
   description:
-    "Be Accountable, Track Your Progress, Achieve Your Goals, Have Someone to Hold You Accountable",
+    "A check-in app for daily tasks, monthly goals, accountability partners, and automated email reminders when tasks are overdue.",
 };
 
 export default function RootLayout({
