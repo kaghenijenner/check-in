@@ -1,0 +1,17 @@
+{
+  "Metadata": {
+    "title": "Mon Application",
+    "description": "Une application Web moderne"
+  },
+  "HomePage": {
+    "title": "Bienvenue",
+    "description": "Ceci est la page d'accueil"
+  },
+  "Home": {
+    "title": "Bienvenue sur mon application"
+  },
+  "Navigation": {
+    "home": "Accueil",
+    "about": "À propos"
+  }
+}

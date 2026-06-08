@@ -1,7 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
+// import { useTranslations } from "next-intl";
+import LanguageSwitcher from "@/components/layout/LanguageSwitcher";
 
 export default function Header() {
+  // const t = useTranslations("Home");
+
   return (
     <div className="sticky top-0 z-20 border-b border-white/10 bg-slate-950/40 px-6 py-4 backdrop-blur-xl md:px-10">
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-6">
@@ -27,6 +31,7 @@ export default function Header() {
           >
             Register
           </Link>
+          <LanguageSwitcher />
         </div>
       </div>
     </div>
