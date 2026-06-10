@@ -31,6 +31,7 @@ export default async function LoacaleLayout({
     >
       <body>
         <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        <Analytics />
       </body>
     </html>
   );
