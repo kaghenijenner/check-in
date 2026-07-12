@@ -14,11 +14,6 @@ export default function Home() {
       <main className="relative mx-auto flex w-full max-w-7xl flex-col gap-20 px-6 pb-20 pt-10 md:px-10 lg:px-12">
         <section className="grid items-center gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:gap-10">
           <div className="space-y-8">
-            <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-white/75 backdrop-blur-xl animate-pop-in">
-              <span className="h-2 w-2 rounded-full bg-emerald-400" />
-              Stay consistent with tasks, goals, and accountability
-            </div>
-
             <div className="space-y-5">
               <h1 className="max-w-3xl text-5xl font-semibold tracking-tight text-balance sm:text-6xl lg:text-7xl animate-slide-up">
                 A check-in app that keeps your daily and monthly goals on track.
